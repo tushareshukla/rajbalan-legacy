@@ -17,7 +17,7 @@ const MainComponet = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Base for
+          Learn KeyBoard
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
@@ -25,7 +25,7 @@ const MainComponet = () => {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="second-heading"
         >
-          CryptoLovers.
+         with sheet.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 50 }}
@@ -33,7 +33,7 @@ const MainComponet = () => {
           transition={{ duration: 0.5, delay: 0.75 }}
           className="p-tag"
         >
-          Track crypto from with public api realtime with amazing ui
+          Learn to play the piano with sheet music and tutorials specially curated by Legendary Pianist Raj Balan
         </motion.p>
         <motion.div
           initial={{ opacity: 0, x: 50 }}

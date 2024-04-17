@@ -27,22 +27,27 @@ export default function AnchorTemporaryDrawer() {
             {" "}
             <p className="links">Home</p>
           </Link>
-          <Link to="/compare">
+          <Link to="/story">
             {" "}
-            <p className="links">Compare </p>
+            <p className="links">Story</p>
           </Link>
-          <Link to="/watchlist">
+        
+          <Link to="/works">
             {" "}
-            <p className="links">Watchlist</p>
+            <p className="links">Works</p>
+          </Link>
+          <Link to="/books">
+            {" "}
+            <p className="links">Books</p>
           </Link>
           {/* <a href='/'>      <p className='links'>Dashboard</p></a> */}
-          <Link to="/dashboard">
+          <Link to="/login">
             <Button
-              text="Dashboard"
+              text="Login"
               onClick={() => console.log("Button Clicked")}
             ></Button>
           </Link>
-     </div>
+        </div>
       </Drawer>
     </div>
   );

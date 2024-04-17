@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import  "./App.css"
 import React from 'react'
 import Home from "./pages/Home"
-import DashboardPage from "./pages/DashboardPage"
-import CoinPage from "./pages/CoinPage"
-import ComparePage from "./pages/ComparePage"
-import WatchListPage from "./pages/WatchListPage"
+import Story from "./pages/Story"
+import Works from "./pages/Works"
+import Books from "./pages/Books"
+import Login from "./pages/Login"
 
 const App = () => {
   return (
@@ -13,10 +13,10 @@ const App = () => {
      <BrowserRouter>
    <Routes>
     <Route path="/" element={<Home/>} />
-    <Route path="/dashboard" element={<DashboardPage/>} />
-    <Route path="/coin/:id" element={<CoinPage/>} />
-    <Route path="/compare" element={<ComparePage/>} />
-    <Route path="/watchlist" element={<WatchListPage/>} />
+    <Route path="/story" element={<Story/>} />
+    <Route path="/works" element={<Works/>} />
+    <Route path="/books" element={<Books/>} />
+    <Route path="/login" element={<Login/>} />
    </Routes>
 
      </BrowserRouter>
